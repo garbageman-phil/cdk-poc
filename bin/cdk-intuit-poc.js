@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const cdk = require("@aws-cdk/cdk");
+const cdk_intuit_poc_stack_1 = require("../lib/cdk-intuit-poc-stack");
+const app = new cdk.App();
+new cdk_intuit_poc_stack_1.CdkIntuitPocStack(app, 'CdkIntuitPocStack');
+app.run();
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2RrLWludHVpdC1wb2MuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJjZGstaW50dWl0LXBvYy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFDQSxvQ0FBcUM7QUFDckMsc0VBQWdFO0FBRWhFLE1BQU0sR0FBRyxHQUFHLElBQUksR0FBRyxDQUFDLEdBQUcsRUFBRSxDQUFDO0FBQzFCLElBQUksd0NBQWlCLENBQUMsR0FBRyxFQUFFLG1CQUFtQixDQUFDLENBQUM7QUFDaEQsR0FBRyxDQUFDLEdBQUcsRUFBRSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiIyEvdXNyL2Jpbi9lbnYgbm9kZVxuaW1wb3J0IGNkayA9IHJlcXVpcmUoJ0Bhd3MtY2RrL2NkaycpO1xuaW1wb3J0IHsgQ2RrSW50dWl0UG9jU3RhY2sgfSBmcm9tICcuLi9saWIvY2RrLWludHVpdC1wb2Mtc3RhY2snO1xuXG5jb25zdCBhcHAgPSBuZXcgY2RrLkFwcCgpO1xubmV3IENka0ludHVpdFBvY1N0YWNrKGFwcCwgJ0Nka0ludHVpdFBvY1N0YWNrJyk7XG5hcHAucnVuKCk7XG4iXX0=
